@@ -1,6 +1,24 @@
-# Sentiment Analysis of Tweets with Emoticons
+
+<p align="center">
+
+  <h2 align="center">Sentiment Analysis of Tweets with Emoticons</h2>
+</p>
+
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <li><a href="#paper-link">Paper Link</a></li>
+    <li><a href="#abstract">Abstract</a></li>
+      <li><a href="#introduction">Introduction</a></li>
+      <li><a href="#dataset">Dataset</a></li>
+      <li><a href="#models">Models</a></li>
+      <li><a href="#results">Results</a></li>
+</details>
+
+
 ## Paper Link
 Paper: [Link](https://link.springer.com/chapter/10.1007/978-3-031-24848-1_15)
+
 ## Abstract
 Social networking services allow users to communicate with their friends and exchange ideas, photos, and videos that delineate their feelings. Sentiments are emotions that express a person’s 
 attitude, feelings, and worldview. This raises the possibility of analyzing individual moods and emotions in social network data in order to learn more about people’s inclinations and 
@@ -29,14 +47,3 @@ We evaluated the following machine learning models for sentiment analysis:
 ## Results
 The performance of each model was evaluated based on accuracy. The XGBoost model achieved the highest accuracy of 87.841%, making it the best performing model for this task.
 
-## Usage
-1. Clone the repository
-```python
-git clone https://github.com/Ayush6501/Sentiment140_Analysis.git
-cd sentiment-analysis-tweets
-```
-2. Install the required dependencies:
-```python
-pip install seaborn wordcloud nltk scikit-learn
-```
-3. Run the .ipynb file
